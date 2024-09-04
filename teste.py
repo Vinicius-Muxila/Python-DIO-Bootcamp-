@@ -1,5 +1,6 @@
-name, age, course, school = "Vinícius", 31, "análise e desenvolvimento de sistemas", "FIAP"
-print(f'Meu nome é {name}, tenho {age} anos e curso {course} na {school}.')
+frutas = ["limao", "laranja", "uva"]
+curso = "curso de phyton"
 
-print(5 // 2)
-float("a")
+print("laranja" not in frutas)
+print("limao" in frutas)
+print("phyton" in curso)
