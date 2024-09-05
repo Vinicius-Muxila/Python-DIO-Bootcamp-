@@ -1,10 +1,13 @@
-frutas = ["limao", "laranja", "uva"]
-curso = "curso de phyton"
+import sys
 
-print("laranja" not in frutas)
-print("limao" in frutas)
-print("phyton" in curso)
 
-saldo = 500 
-saldo += 300
-print(saldo)
+opcao = int(input("Informe uma opção: \n[1] Sacar \n[2] Extrato: "))
+
+if opcao == 1:
+    valor = float(input("Informe a quantia para o saque: "))
+
+elif opcao == 2:
+    print("Exibindo o extrato...")
+
+else:
+    sys.exit("Opção inválida")    
